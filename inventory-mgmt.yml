@@ -13,5 +13,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 contact-info: 
-    contactNumber: 8096840633
+    contactNumber: 6304780241
     emailAddress: demo@gmail.com
