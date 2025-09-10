@@ -13,5 +13,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 contact-info: 
-    contact-number: 1234567890
-    email-address: demo@gmail.com
+    contactNumber: 1234567890
+    emailAddress: demo@gmail.com
