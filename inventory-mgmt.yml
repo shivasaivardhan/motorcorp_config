@@ -1,4 +1,9 @@
+---
 spring:
+  config:
+    active:
+      on-profile: dev
+
   datasource:
     url: jdbc:mysql://localhost:3306/inventory_mgmt
     username: root
@@ -15,3 +20,26 @@ spring:
 contact-info: 
     contactNumber: 6304780241
     emailAddress: demo@gmail.com
+...
+---
+spring:
+  config:
+    active:
+      on-profile: test
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/inventory_mgmt
+    username: root
+    password: shiva
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+contact-info:
+  contactNumber: 9866260018
+  emailAddress: dummy@gmail.com
