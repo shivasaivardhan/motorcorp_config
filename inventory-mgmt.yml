@@ -1,7 +1,7 @@
 ---
 spring:
   config:
-    active:
+    activate:
       on-profile: dev
 
   datasource:
@@ -24,7 +24,7 @@ contact-info:
 ---
 spring:
   config:
-    active:
+    activate:
       on-profile: test
 
   datasource:
