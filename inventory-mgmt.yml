@@ -17,10 +17,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-contact-info: 
-    contactNumber: 6304780241
-    emailAddress: demo@gmail.com
-...
+
+contact-info:
+  contactNumber: 6304780241
+  emailAddress: demo@gmail.com
+
 ---
 spring:
   config:
@@ -40,6 +41,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+
 contact-info:
   contactNumber: 9866260018
   emailAddress: dummy@gmail.com
