@@ -21,7 +21,7 @@ spring:
 contact-info:
   contactNumber: 6304780241
   emailAddress: demo@gmail.com
-
+...
 ---
 spring:
   config:
@@ -45,3 +45,4 @@ spring:
 contact-info:
   contactNumber: 9866260018
   emailAddress: dummy@gmail.com
+...
