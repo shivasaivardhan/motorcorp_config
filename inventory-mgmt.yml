@@ -24,6 +24,14 @@ contact-info:
 
 server:
   port: 8081
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      default-zone: http://localhost:7001
+
 ...
 ---
 spring:
@@ -51,4 +59,11 @@ contact-info:
 
 server:
   port: 8082
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      default-zone: http://localhost:7001
 ...
