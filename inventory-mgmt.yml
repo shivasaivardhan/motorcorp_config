@@ -21,6 +21,9 @@ spring:
 contact-info:
   contactNumber: 1234567890
   emailAddress: dummy@gmail.com
+
+server:
+  port: 8081
 ...
 ---
 spring:
@@ -45,4 +48,7 @@ spring:
 contact-info:
   contactNumber: 8096840633
   emailAddress: shiva@gmail.com
+
+server:
+  port: 8082
 ...
