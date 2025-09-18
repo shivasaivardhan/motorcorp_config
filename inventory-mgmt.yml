@@ -30,7 +30,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-      defaultZone: http://localhost:7001
+      defaultZone: http://localhost:7001/eureka
 
 ...
 ---
@@ -65,5 +65,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-      defaultZone: http://localhost:7001
+      defaultZone: http://localhost:7001/eureka
 ...
